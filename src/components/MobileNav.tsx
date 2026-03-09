@@ -42,9 +42,14 @@ export default function MobileNav({ lang, dict }: MobileNavProps) {
                 maxWidth: '400px'
             }}
         >
-            <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
-                &times;
-            </button>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
+                <Link href={`/${lang}`} onClick={toggleMenu} style={{ fontSize: '1.5rem', fontWeight: 300, letterSpacing: '0.05em', color: 'var(--primary)', textDecoration: 'none' }}>
+                    <strong style={{ fontWeight: 700 }}>OCTA</strong>BAU
+                </Link>
+                <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu" style={{ marginBottom: 0 }}>
+                    &times;
+                </button>
+            </div>
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
                     <li><Link href={`/${lang}/leistungen`} onClick={toggleMenu}>{dict.navigation.services}</Link></li>

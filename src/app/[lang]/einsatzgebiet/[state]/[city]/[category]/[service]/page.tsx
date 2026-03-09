@@ -65,14 +65,14 @@ export default async function CityServicePage({ params }: Props) {
             {/* Minimalist Hero */}
             <section style={{ backgroundColor: 'var(--secondary)', paddingTop: '8rem', paddingBottom: '5rem', borderBottom: '1px solid var(--border)' }}>
                 <div className="container">
-                    <div style={{ display: 'flex', gap: '0.5rem', color: 'var(--muted)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{cityData.region}</Link>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', rowGap: '0.5rem', color: 'var(--muted)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em', lineHeight: '1.5' }}>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{cityData.region}</Link>
                         <span>/</span>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{cityData.name}</Link>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{cityData.name}</Link>
                         <span>/</span>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}/${categoryData.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{categoryData.title}</Link>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}/${categoryData.slug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{categoryData.title}</Link>
                         <span>/</span>
-                        <span style={{ color: 'var(--primary)' }}>{serviceData.title}</span>
+                        <span style={{ color: 'var(--primary)', whiteSpace: 'nowrap' }}>{serviceData.title}</span>
                     </div>
 
                     <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', maxWidth: '900px', lineHeight: 1.1 }}>
