@@ -18,41 +18,42 @@ interface MobileNavProps {
     };
 }
 
-const [isOpen, setIsOpen] = useState(false);
-const [mounted, setMounted] = useState(false);
+export default function MobileNav({ lang, dict }: MobileNavProps) {
+    const [isOpen, setIsOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
 
-useEffect(() => {
-    setMounted(true);
-}, []);
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
-const toggleMenu = () => setIsOpen(!isOpen);
+    const toggleMenu = () => setIsOpen(!isOpen);
 
-const drawerContent = (
-    <div className={styles.drawer}>
-        <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
-            &times;
-        </button>
-        <nav className={styles.nav}>
-            <ul className={styles.navList}>
-                <li><Link href={`/${lang}/leistungen`} onClick={toggleMenu}>{dict.navigation.services}</Link></li>
-                <li><Link href={`/${lang}/projekte`} onClick={toggleMenu}>{dict.navigation.projects}</Link></li>
-                <li><Link href={`/${lang}/einsatzgebiet`} onClick={toggleMenu}>{dict.navigation.regions}</Link></li>
-                <li><Link href={`/${lang}/ueber-uns`} onClick={toggleMenu}>{dict.navigation.about}</Link></li>
-                <li><Link href={`/${lang}/kontakt`} onClick={toggleMenu} className={styles.contactLink}>{dict.navigation.contact}</Link></li>
-            </ul>
-        </nav>
-    </div>
-);
+    const drawerContent = (
+        <div className={styles.drawer}>
+            <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
+                &times;
+            </button>
+            <nav className={styles.nav}>
+                <ul className={styles.navList}>
+                    <li><Link href={`/${lang}/leistungen`} onClick={toggleMenu}>{dict.navigation.services}</Link></li>
+                    <li><Link href={`/${lang}/projekte`} onClick={toggleMenu}>{dict.navigation.projects}</Link></li>
+                    <li><Link href={`/${lang}/einsatzgebiet`} onClick={toggleMenu}>{dict.navigation.regions}</Link></li>
+                    <li><Link href={`/${lang}/ueber-uns`} onClick={toggleMenu}>{dict.navigation.about}</Link></li>
+                    <li><Link href={`/${lang}/kontakt`} onClick={toggleMenu} className={styles.contactLink}>{dict.navigation.contact}</Link></li>
+                </ul>
+            </nav>
+        </div>
+    );
 
-return (
-    <div className={styles.mobileNavContainer}>
-        <button className={styles.hamburger} onClick={toggleMenu} aria-label="Menu" aria-expanded={isOpen}>
-            <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
-            <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
-            <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
-        </button>
+    return (
+        <div className={styles.mobileNavContainer}>
+            <button className={styles.hamburger} onClick={toggleMenu} aria-label="Menu" aria-expanded={isOpen}>
+                <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
+                <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
+                <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
+            </button>
 
-        {isOpen && mounted && createPortal(drawerContent, document.body)}
-    </div>
-);
+            {isOpen && mounted && createPortal(drawerContent, document.body)}
+        </div>
+    );
 }
