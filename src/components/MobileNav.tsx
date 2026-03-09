@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import styles from './MobileNav.module.css';
 
@@ -18,9 +19,30 @@ interface MobileNavProps {
 }
 
 export default function MobileNav({ lang, dict }: MobileNavProps) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     const toggleMenu = () => setIsOpen(!isOpen);
+
+    const drawerContent = (
+        <div className={styles.drawer}>
+            <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
+                &times;
+            </button>
+            <nav className={styles.nav}>
+                <ul className={styles.navList}>
+                    <li><Link href={`/${lang}/leistungen`} onClick={toggleMenu}>{dict.navigation.services}</Link></li>
+                    <li><Link href={`/${lang}/projekte`} onClick={toggleMenu}>{dict.navigation.projects}</Link></li>
+                    <li><Link href={`/${lang}/einsatzgebiet`} onClick={toggleMenu}>{dict.navigation.regions}</Link></li>
+                    <li><Link href={`/${lang}/ueber-uns`} onClick={toggleMenu}>{dict.navigation.about}</Link></li>
+                    <li><Link href={`/${lang}/kontakt`} onClick={toggleMenu} className={styles.contactLink}>{dict.navigation.contact}</Link></li>
+                </ul>
+            </nav>
+        </div>
+    );
 
     return (
         <div className={styles.mobileNavContainer}>
@@ -30,22 +52,7 @@ export default function MobileNav({ lang, dict }: MobileNavProps) {
                 <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
             </button>
 
-            {isOpen && (
-                <div className={styles.drawer}>
-                    <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
-                        &times;
-                    </button>
-                    <nav className={styles.nav}>
-                        <ul className={styles.navList}>
-                            <li><Link href={`/${lang}/leistungen`} onClick={toggleMenu}>{dict.navigation.services}</Link></li>
-                            <li><Link href={`/${lang}/projekte`} onClick={toggleMenu}>{dict.navigation.projects}</Link></li>
-                            <li><Link href={`/${lang}/einsatzgebiet`} onClick={toggleMenu}>{dict.navigation.regions}</Link></li>
-                            <li><Link href={`/${lang}/ueber-uns`} onClick={toggleMenu}>{dict.navigation.about}</Link></li>
-                            <li><Link href={`/${lang}/kontakt`} onClick={toggleMenu} className={styles.contactLink}>{dict.navigation.contact}</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-            )}
+            {isOpen && mounted && createPortal(drawerContent, document.body)}
         </div>
     );
 }
