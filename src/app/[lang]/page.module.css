@@ -1,0 +1,239 @@
+.home {
+  width: 100%;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 85vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--background);
+  overflow: hidden;
+}
+
+.heroBgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.heroContent h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.floatingIcons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Bauphasen Section */
+.bauphasen {
+  background-color: var(--secondary);
+  /* Light grey background */
+  border-bottom: 1px solid var(--border);
+}
+
+.serviceCard {
+  background: var(--background);
+  padding: 3rem 2rem;
+  border-radius: var(--radius-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border);
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.serviceCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.serviceLink {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.serviceLink:hover {
+  color: var(--accent);
+}
+
+/* Warum Octabau Section */
+.warum {
+  background-color: var(--background);
+  /* Solid white background */
+  border-bottom: 1px solid var(--border);
+}
+
+.benefitsList {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.benefitsList li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.benefitsList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.warumImagePlaceholder {
+  height: 500px;
+  background-color: var(--secondary);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.placeholderImg {
+  display: none;
+}
+
+/* Projekte Section */
+.projekte {
+  background-color: var(--secondary);
+  /* Back to light grey */
+  border-bottom: 1px solid var(--border);
+}
+
+.projectsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+}
+
+.projectCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: var(--background);
+  /* White cards on grey bg */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.projectCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.projectImage {
+  height: 350px;
+  background-color: var(--secondary);
+}
+
+.projectInfo {
+  padding: 2rem;
+}
+
+/* Einsatzgebiet Section */
+.einsatzgebiet {
+  background-color: var(--background);
+  /* Back to white */
+  background-image: radial-gradient(var(--border) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.cityGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cityLink {
+  padding: 1rem 2rem;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.cityLink:hover {
+  background-color: var(--primary);
+  color: var(--background);
+  border-color: var(--primary);
+}
+
+/* CTA Section */
+.cta {
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 8rem 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 6rem 0 3rem 0;
+  }
+
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+
+  .floatingIcons {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .projectsHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

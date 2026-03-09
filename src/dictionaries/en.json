@@ -1,0 +1,383 @@
+{
+    "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "projects": "Projects",
+        "regions": "Coverage Areas",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "footer": {
+        "impressum": "Legal Notice",
+        "datenschutz": "Privacy Policy",
+        "rights": "All rights reserved."
+    },
+    "common": {
+        "readMore": "Read more",
+        "submit": "Submit",
+        "search": "Search",
+        "language": "Language"
+    },
+    "aboutus": {
+        "heroTitle": "About Octabau",
+        "heroSubtitle": "We are your strong partner for demanding construction projects in the commercial, industrial, and public sectors.",
+        "visionTitle": "Our Vision and Mission",
+        "visionText1": "Octabau stands for precision, reliability, and efficiency. As a general contractor or specialized service provider, we take responsibility for smooth implementation in large-scale projects – on time and within budget.",
+        "visionText2": "With an experienced team and a strong network of professional partners, we cover all relevant construction phases. From initial project coordination to turnkey handover. We don't just build buildings, we create value.",
+        "stats": {
+            "years": "Years of Experience",
+            "projects": "Successful Large Projects",
+            "punctuality": "On-Time Delivery"
+        },
+        "qualityTitle": "Certified Quality",
+        "qualityText": "We work according to the highest industry standards and rely on modern construction technologies and sustainable materials."
+    },
+    "contactPage": {
+        "heroTitle": "Get in Touch",
+        "heroSubtitle": "Do you have a specific construction project? Our project team is available for an initial consultation.",
+        "officeTitle": "Our Office",
+        "hq": "Headquarters",
+        "communication": "Communication",
+        "hours": "Business Hours",
+        "hoursText1": "Monday – Thursday: 08:00 – 17:00",
+        "hoursText2": "Friday: 08:00 – 15:00",
+        "formTitle": "Send Project Inquiry",
+        "nameLabel": "Name / Company",
+        "emailLabel": "Email Address",
+        "subjectLabel": "Building Type / Subject",
+        "subjectOptions": {
+            "commercial": "Commercial Construction",
+            "public": "Public Construction",
+            "residential": "Residential Complex",
+            "other": "Other"
+        },
+        "messageLabel": "Your Message",
+        "submitButton": "Send Message"
+    },
+    "projectsPage": {
+        "heroTitle": "Realized Construction Projects",
+        "heroSubtitle": "An excerpt of our successfully completed projects in the commercial and public sectors.",
+        "planSimilar": "Plan a Similar Project",
+        "ctaTitle": "Planning Something Big?",
+        "ctaSubtitle": "Contact our experienced team for an initial assessment.",
+        "ctaButton": "Request Consultation",
+        "projectsList": [
+            {
+                "id": 1,
+                "slug": "sparkasse-herne",
+                "title": "Sparkasse Herne",
+                "type": "Commercial / Interior Fit-Out",
+                "beschreibung": "Casting the reinforced safe vault, installing block wall partitions, and comprehensive drywall construction.",
+                "duration": "4 Months",
+                "workers": "12 Craftsmen",
+                "area": "450 sqm",
+                "image": "/images/projects/sparkasse-herne.png",
+                "gallery": [
+                    "/images/projects/sparkasse-detail-1.png",
+                    "/images/projects/sparkasse-detail-2.png",
+                    "/images/projects/sparkasse-detail-3.png"
+                ]
+            },
+            {
+                "id": 2,
+                "slug": "polizeischule-herne",
+                "title": "Police Academy Herne",
+                "type": "Public Sector / Interior Fit-Out",
+                "beschreibung": "Tiling, drywall partitioning, puttying (spachtel), painting, and electrical installations for a modern training facility.",
+                "duration": "6 Months",
+                "workers": "18 Craftsmen",
+                "area": "1,200 sqm",
+                "image": "/images/projects/police-school-herne.png",
+                "gallery": [
+                    "/images/projects/police-detail-1.png",
+                    "/images/projects/police-detail-2.png",
+                    "/images/projects/police-detail-3.png"
+                ]
+            },
+            {
+                "id": 3,
+                "slug": "universitaet-hattingen",
+                "title": "Hattingen University",
+                "type": "Education / Plastering",
+                "beschreibung": "Extensive plastering work across 3 separate buildings to prepare surfaces for final painting.",
+                "duration": "3 Months",
+                "workers": "24 Craftsmen",
+                "area": "3,500 sqm",
+                "image": "/images/projects/hattingen-university.png",
+                "gallery": [
+                    "/images/projects/uni-detail-1.png",
+                    "/images/projects/uni-detail-2.png",
+                    "/images/projects/uni-detail-3.png"
+                ]
+            },
+            {
+                "id": 4,
+                "slug": "flughafen-duesseldorf",
+                "title": "Düsseldorf Airport",
+                "type": "Infrastructure / Drywall",
+                "beschreibung": "Suspended drywall ceilings including complete installation of modern lighting systems.",
+                "duration": "8 Months",
+                "workers": "30 Craftsmen",
+                "area": "5,000 sqm",
+                "image": "/images/projects/dusseldorf-airport.png",
+                "gallery": [
+                    "/images/projects/airport-detail-1.png",
+                    "/images/projects/dusseldorf-airport.png",
+                    "/images/projects/airport-detail-1.png"
+                ]
+            }
+        ]
+    },
+    "leistungenPage": {
+        "heroTitle": "Our Services & Construction Phases",
+        "heroSubtitle": "We cover the entire lifecycle of your construction project – from initial preparation to final handover.",
+        "detailsButton": "View Details on Construction Phase",
+        "serviceTitle": "Full-Service for Your Project",
+        "serviceText": "As an experienced partner for large-scale projects, we gladly take over the entire control of all trades upon request. This gives you a single point of contact and maximum planning security.",
+        "serviceButton": "Arrange a Consultation"
+    },
+    "homePage": {
+        "heroTitle": "We build the future<br />of your visions.",
+        "heroSubtitle": "Octabau is your professional partner for large-scale construction projects, commercial buildings, and complex construction logistics. From planning to turnkey handover.",
+        "heroProjectsBtn": "Our Projects",
+        "heroContactBtn": "Contact Us",
+        "phasesTitle": "Our Construction Phases",
+        "phasesSubtitle": "A holistic approach for maximum efficiency and quality.",
+        "phases": [
+            {
+                "title": "Project Preparation & Planning",
+                "desc": "Coordination, consulting, and organization for a smooth start.",
+                "link": "projektvorbereitung-planung"
+            },
+            {
+                "title": "Interior Fit-out & Design",
+                "desc": "Interior fit-out, drywall, painting, and facade work at the highest level.",
+                "link": "ausbau-gestaltung"
+            },
+            {
+                "title": "Logistics, Transport & Service",
+                "desc": "Efficient construction logistics and material transport for on-time processes.",
+                "link": "logistik-transport-service"
+            },
+            {
+                "title": "Handover, Cleaning & Support",
+                "desc": "Final construction cleaning and property preparation for perfect turnkey handover.",
+                "link": "uebergabe-reinigung-betreuung"
+            },
+            {
+                "title": "Demolition & Preparation",
+                "desc": "Professional demolition, gutting, and preparation of the construction site.",
+                "link": "rueckbau-vorbereitung"
+            }
+        ],
+        "whyTitle": "Why Octabau?",
+        "whyText": "As an established construction company, we understand the complexity of large construction projects. Commercial builders, investors, and the public sector trust our expertise.",
+        "whyList": [
+            "<strong>Reliability:</strong> Schedule adherence and transparent cost control.",
+            "<strong>Quality:</strong> Highest standards across all construction phases.",
+            "<strong>Competence:</strong> An experienced team of experts and skilled workers.",
+            "<strong>Holistic:</strong> From preparation to final cleaning, everything from a single source."
+        ],
+        "projectsTitle": "Current Large Projects",
+        "projectsSubtitle": "Convince yourself of our capabilities.",
+        "projectsBtn": "View All Projects",
+        "shortProjects": [
+            {
+                "id": 1,
+                "title": "Commercial Complex 1",
+                "desc": "Complete fit-out and project management."
+            },
+            {
+                "id": 2,
+                "title": "Industrial Facility 2",
+                "desc": "Special deep foundation and building construction."
+            }
+        ],
+        "regionsTitle": "Our Coverage Area",
+        "regionsSubtitle": "We realize projects throughout Germany, with a special focus on economically strong metropolitan regions.",
+        "regionsBtn": "View All Locations",
+        "ctaTitle": "Ready for your next project?",
+        "ctaSubtitle": "Let's talk together about the realization of your vision.",
+        "ctaBtn": "Open Contact Form"
+    },
+    "regionsPage": {
+        "heroTitle": "Our Coverage Areas by State",
+        "heroSubtitle": "Octabau operates for you throughout Germany. Select a state to learn more about our regional locations and specific construction projects.",
+        "selectState": "Select State",
+        "directCity": "Go directly to City",
+        "nationalProject": "National Large-scale Project?",
+        "nationalDesc": "For complex construction projects above a certain volume, we take on holistic project management across state borders.",
+        "nationalBtn": "Request Central Project Consulting"
+    },
+    "citySearchBox": {
+        "placeholder": "Search city (e.g. Berlin)...",
+        "searchButton": "Search",
+        "notSelected": "(Please select a result first)",
+        "notFound": "City not found"
+    },
+    "seoPages": {
+        "stateHeroTitle": "Our Locations in",
+        "backToOverview": "Back to Overview",
+        "contactPrompt": "Contact us for projects in",
+        "contactButton": "Contact Us",
+        "cityHeroTitle": "Construction Company in",
+        "cityHeroSubtitle": "Your professional partner for large-scale construction projects in the region of",
+        "cityDescription1": "is an essential economic hub. Octabau offers tailor-made construction services for industry, commerce, and public entities here.",
+        "regionalServices": "Regional Construction Services in",
+        "serviceDetails": "View Service Details",
+        "categorySubtitle": "Specialized services for",
+        "categoryDesc1": "Learn more about our high-quality services in the area of",
+        "availableServices": "Available services for",
+        "serviceSubtitle": "Professional execution for your",
+        "serviceProjIn": "project in",
+        "serviceDesc1": "Octabau offers excellent",
+        "serviceDesc2": "Benefit from our many years of experience in the region of",
+        "in": "in"
+    },
+    "cityPage": {
+        "heroTitle": "Your Construction Partner for Large Projects in",
+        "heroDesc1": "In",
+        "heroDesc2": "and throughout",
+        "heroDesc3": "Octabau realizes complex construction projects for commercial, industrial, and public clients.",
+        "buildIn": "Building in",
+        "withOctabau": "with Octabau",
+        "p1_1": "The realization of construction projects in",
+        "p1_2": "requires a profound understanding of local infrastructure, regulatory requirements, and specific logistical challenges.",
+        "p2": "Our regionally anchored teams and strong network of specialist planners and craftsmen ensure an efficient construction process, regardless of the project's size.",
+        "localExpertise": "Local Expertise",
+        "localExpertiseDesc": "Knowledge of regional building regulations in",
+        "strongNetwork": "Strong Network",
+        "strongNetworkDesc": "Cooperation with proven subcontractors from the area of",
+        "ourServicesIn": "Our Services in",
+        "discussInfo": "Discuss your project in",
+        "discussInfo2": "with our experts:",
+        "requestConsultation": "Request Building Consultation"
+    },
+    "categoryPage": {
+        "heroDesc1": "Professional implementation of",
+        "heroDesc2": "projects by Octabau – your local construction partner in",
+        "regExpertise": "Regional Expertise in",
+        "trustDesc": "Trust our many years of experience and deep regional network in",
+        "trustDesc2": ". We guarantee highest quality standards, binding deadlines, and cost security for your",
+        "trustDesc3": "project.",
+        "whyTitle": "Why Octabau in",
+        "why1": "Regional on-site project management",
+        "why2": "Short reaction times thanks to excellent logistics in the region of",
+        "why3": "Cooperation with local, proven specialist partners",
+        "specServices": "Specialized Services",
+        "chooseDetail": "Select the desired specialist area for detailed information on our services in",
+        "detailsFor": "Details for",
+        "planProj": "Are you planning",
+        "in": "in",
+        "talkWithUs": "Let's talk about your project together. Contact our local consulting team for a detailed discussion.",
+        "requestNow": "Request now in"
+    },
+    "servicePage": {
+        "heroDesc": "Octabau is your specialized service provider for professional",
+        "heroDesc2": "projects in and around",
+        "profExecution": "Professional execution in",
+        "projBegin": "A successful construction project begins with choosing the right partner. Our team for the region of",
+        "projBegin2": "is excellently trained and works exclusively with modern tools and proven materials. As a supra-regional company with local roots, we bring the necessary know-how and manpower for",
+        "projBegin3": "directly to your construction site in",
+        "onTime": "On-time execution",
+        "safety": "Highest safety standards",
+        "contacts": "Fixed on-site contacts",
+        "transparency": "Transparent calculation",
+        "projInq": "Project inquiry",
+        "needSupport": "Do you need short- or long-term support with",
+        "hotline": "Regional hotline",
+        "emailDisp": "Email dispatch",
+        "toContact": "To the contact form",
+        "in": "in"
+    },
+    "services": {
+        "ausbau-gestaltung": {
+            "title": "Expansion & Design",
+            "description": "High-quality complete expansion and design of commercial and industrial arcades."
+        },
+        "projektvorbereitung-planung": {
+            "title": "Project Preparation & Planning",
+            "description": "We lay the foundation for a smooth process of your construction project."
+        },
+        "logistik-transport-service": {
+            "title": "Logistics, Transport & Service",
+            "description": "Precise construction logistics and transport solutions for major construction sites."
+        },
+        "uebergabe-reinigung-betreuung": {
+            "title": "Handover, Cleaning & Support",
+            "description": "Professional preparation for the turnkey handover of your property."
+        },
+        "rueckbau-vorbereitung": {
+            "title": "Deconstruction & Preparation",
+            "description": "Professional deconstruction and preparation for new construction or core refurbishment."
+        },
+        "innenausbau": {
+            "title": "Interior Construction",
+            "description": "Complete interior construction for offices, medical practices, and commercial spaces."
+        },
+        "trockenbau": {
+            "title": "Drywall Construction",
+            "description": "Flexible and fire-protection compliant drywall solutions."
+        },
+        "malerarbeiten": {
+            "title": "Painting Work",
+            "description": "Professional painting and wall coatings."
+        },
+        "bodenarbeiten": {
+            "title": "Flooring Work",
+            "description": "Installation of industrial floors and high-quality coverings."
+        },
+        "fliesenarbeiten": {
+            "title": "Tiling Work",
+            "description": "Large-scale tiling for sanitary and utility areas."
+        },
+        "fassadenarbeiten": {
+            "title": "Facade Work",
+            "description": "Energy-efficient facade renovation and redesign."
+        },
+        "projektberatung": {
+            "title": "Project Consulting",
+            "description": "Strategic consulting before start of construction to optimize time and budget."
+        },
+        "baukoordination": {
+            "title": "Construction Coordination",
+            "description": "Interface management between all involved trades."
+        },
+        "baustellenorganisation": {
+            "title": "Construction Site Organization",
+            "description": "Efficient setup and organization of the construction site."
+        },
+        "baulogistik": {
+            "title": "Construction Logistics",
+            "description": "Control of material and personnel flows on the construction site."
+        },
+        "materialtransport": {
+            "title": "Material Transport",
+            "description": "Safe delivery and handling of construction materials."
+        },
+        "umzugsservice": {
+            "title": "Relocation Service for Construction Sites or Buildings",
+            "description": "Commercial relocations and site transfers during the construction phase."
+        },
+        "bauendreinigung": {
+            "title": "Final Construction Cleaning",
+            "description": "Deep cleaning of all construction dirt before moving in."
+        },
+        "objektvorbereitung": {
+            "title": "Property Preparation for Handover",
+            "description": "Defect rectification and final acceptance testing for the client."
+        },
+        "abriss": {
+            "title": "Demolition",
+            "description": "Controlled and mechanical demolition of building structures."
+        },
+        "entkernung": {
+            "title": "Core Gutting",
+            "description": "Careful gutting in preparation for revitalizations."
+        },
+        "rueckbauarbeiten": {
+            "title": "Deconstruction Work",
+            "description": "Selective deconstruction and professional disposal of hazardous materials according to TRGS."
+        }
+    }
+}

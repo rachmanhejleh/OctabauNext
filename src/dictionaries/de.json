@@ -1,0 +1,383 @@
+{
+    "navigation": {
+        "home": "Home",
+        "services": "Leistungen",
+        "projects": "Projekte",
+        "regions": "Einsatzgebiete",
+        "about": "Über uns",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutz",
+        "rights": "Alle Rechte vorbehalten."
+    },
+    "common": {
+        "readMore": "Mehr erfahren",
+        "submit": "Absenden",
+        "search": "Suchen",
+        "language": "Sprache"
+    },
+    "aboutus": {
+        "heroTitle": "Über Octabau",
+        "heroSubtitle": "Wir sind Ihr starker Partner für anspruchsvolle Bauprojekte im gewerblichen, industriellen und öffentlichen Sektor.",
+        "visionTitle": "Unsere Vision und Mission",
+        "visionText1": "Octabau steht für Präzision, Verlässlichkeit und Effizienz. Als Generalunternehmer oder spezialisierter Dienstleister übernehmen wir bei Großprojekten die Verantwortung für eine reibungslose Umsetzung – termingerecht und im Budget.",
+        "visionText2": "Mit einem erfahrenen Team und einem starken Netzwerk an Fachpartnern decken wir alle relevanten Bauphasen ab. Von der ersten Projektkoordination bis zur schlüsselfertigen Übergabe. Wir bauen nicht nur Gebäude, wir schaffen Werte.",
+        "stats": {
+            "years": "Jahre Erfahrung",
+            "projects": "Erfolgreiche Großprojekte",
+            "punctuality": "Termintreue"
+        },
+        "qualityTitle": "Zertifizierte Qualität",
+        "qualityText": "Wir arbeiten nach höchsten Branchenstandards und setzen auf modernste Bautechnologien sowie nachhaltige Materialien."
+    },
+    "contactPage": {
+        "heroTitle": "Kontakt aufnehmen",
+        "heroSubtitle": "Haben Sie ein konkretes Bauvorhaben? Unser Projekt-Team steht Ihnen für eine erste Beratung zur Verfügung.",
+        "officeTitle": "Unser Büro",
+        "hq": "Zentrale",
+        "communication": "Kommunikation",
+        "hours": "Geschäftszeiten",
+        "hoursText1": "Montag – Donnerstag: 08:00 – 17:00 Uhr",
+        "hoursText2": "Freitag: 08:00 – 15:00 Uhr",
+        "formTitle": "Projektanfrage senden",
+        "nameLabel": "Name / Unternehmen",
+        "emailLabel": "E-Mail Adresse",
+        "subjectLabel": "Bautyp / Betreff",
+        "subjectOptions": {
+            "commercial": "Gewerbebau",
+            "public": "Öffentlicher Bau",
+            "residential": "Wohnkomplex",
+            "other": "Sonstiges"
+        },
+        "messageLabel": "Ihre Nachricht",
+        "submitButton": "Nachricht senden"
+    },
+    "projectsPage": {
+        "heroTitle": "Realisierte Bauprojekte",
+        "heroSubtitle": "Ein Auszug unserer erfolgreich abgeschlossenen Projekte im gewerblichen und öffentlichen Bereich.",
+        "planSimilar": "Ähnliches Projekt planen",
+        "ctaTitle": "Sie planen Großes?",
+        "ctaSubtitle": "Kontaktieren Sie unser erfahrenes Team für eine Ersteinschätzung.",
+        "ctaButton": "Beratung anfordern",
+        "projectsList": [
+            {
+                "id": 1,
+                "slug": "sparkasse-herne",
+                "title": "Sparkasse Herne",
+                "type": "Gewerbebau / Innenausbau",
+                "beschreibung": "Gießen der Tresoranlage, setzen von Blockwand-Trennwänden und Trockenbau.",
+                "duration": "4 Monate",
+                "workers": "12 Handwerker",
+                "area": "450 m²",
+                "image": "/images/projects/sparkasse-herne.png",
+                "gallery": [
+                    "/images/projects/sparkasse-detail-1.png",
+                    "/images/projects/sparkasse-detail-2.png",
+                    "/images/projects/sparkasse-detail-3.png"
+                ]
+            },
+            {
+                "id": 2,
+                "slug": "polizeischule-herne",
+                "title": "Polizeischule Herne",
+                "type": "Öffentlicher Bau / Innenausbau",
+                "beschreibung": "Fliesenarbeiten, Trockenbau, Spachteln, Malern und Elektroinstallationen für eine moderne Ausbildungseinrichtung.",
+                "duration": "6 Monate",
+                "workers": "18 Handwerker",
+                "area": "1.200 m²",
+                "image": "/images/projects/police-school-herne.png",
+                "gallery": [
+                    "/images/projects/police-detail-1.png",
+                    "/images/projects/police-detail-2.png",
+                    "/images/projects/police-detail-3.png"
+                ]
+            },
+            {
+                "id": 3,
+                "slug": "universitaet-hattingen",
+                "title": "Universität Hattingen",
+                "type": "Bildungsbau / Putz",
+                "beschreibung": "Putzarbeiten in 3 separaten Gebäuden zur Vorbereitung der finalen Malerarbeiten.",
+                "duration": "3 Monate",
+                "workers": "24 Handwerker",
+                "area": "3.500 m²",
+                "image": "/images/projects/hattingen-university.png",
+                "gallery": [
+                    "/images/projects/uni-detail-1.png",
+                    "/images/projects/uni-detail-2.png",
+                    "/images/projects/uni-detail-3.png"
+                ]
+            },
+            {
+                "id": 4,
+                "slug": "flughafen-duesseldorf",
+                "title": "Flughafen Düsseldorf",
+                "type": "Infrastruktur / Trockenbau",
+                "beschreibung": "Abgehängte Trockenbaudecken samt vollständiger Installation der modernen Beleuchtungssysteme.",
+                "duration": "8 Monate",
+                "workers": "30 Handwerker",
+                "area": "5.000 m²",
+                "image": "/images/projects/dusseldorf-airport.png",
+                "gallery": [
+                    "/images/projects/airport-detail-1.png",
+                    "/images/projects/dusseldorf-airport.png",
+                    "/images/projects/airport-detail-1.png"
+                ]
+            }
+        ]
+    },
+    "leistungenPage": {
+        "heroTitle": "Unsere Leistungen & Bauphasen",
+        "heroSubtitle": "Wir decken den gesamten Lebenszyklus Ihres Bauprojekts ab – von der ersten Vorbereitung bis zur finalen Übergabe.",
+        "detailsButton": "Details zur Bauphase ansehen",
+        "serviceTitle": "Full-Service für Ihr Projekt",
+        "serviceText": "Als erfahrener Partner für Großprojekte übernehmen wir auf Wunsch die gesamte Steuerung aller Gewerke. So haben Sie nur einen Ansprechpartner und maximale Planungssicherheit.",
+        "serviceButton": "Beratungsgespräch vereinbaren"
+    },
+    "homePage": {
+        "heroTitle": "Wir bauen die Zukunft<br />Ihrer Visionen.",
+        "heroSubtitle": "Octabau ist Ihr professioneller Partner für Großbauprojekte, Gewerbebau und komplexe Baulogistik. Von der Planung bis zur schlüsselfertigen Übergabe.",
+        "heroProjectsBtn": "Unsere Projekte",
+        "heroContactBtn": "Kontakt aufnehmen",
+        "phasesTitle": "Unsere Bauphasen",
+        "phasesSubtitle": "Ein ganzheitlicher Ansatz für maximale Effizienz und Qualität.",
+        "phases": [
+            {
+                "title": "Projektvorbereitung & Planung",
+                "desc": "Koordination, Beratung und Organisation für einen reibungslosen Start.",
+                "link": "projektvorbereitung-planung"
+            },
+            {
+                "title": "Ausbau & Gestaltung",
+                "desc": "Innenausbau, Trockenbau, Malerarbeiten und Fassadenarbeiten auf höchstem Niveau.",
+                "link": "ausbau-gestaltung"
+            },
+            {
+                "title": "Logistik, Transport & Service",
+                "desc": "Effiziente Baulogistik und Materialtransport für termingerechte Abläufe.",
+                "link": "logistik-transport-service"
+            },
+            {
+                "title": "Übergabe, Reinigung & Betreuung",
+                "desc": "Bauendreinigung und Objektvorbereitung für die perfekte schlüsselfertige Übergabe.",
+                "link": "uebergabe-reinigung-betreuung"
+            },
+            {
+                "title": "Rückbau & Vorbereitung",
+                "desc": "Fachgerechter Abriss, Entkernung und Vorbereitung der Baustelle.",
+                "link": "rueckbau-vorbereitung"
+            }
+        ],
+        "whyTitle": "Warum Octabau?",
+        "whyText": "Als etabliertes Bauunternehmen verstehen wir die Komplexität großer Bauvorhaben. Gewerbliche Bauherren, Investoren und der öffentliche Sektor vertrauen auf unsere Expertise.",
+        "whyList": [
+            "<strong>Zuverlässigkeit:</strong> Termintreue und transparente Kostenkontrolle.",
+            "<strong>Qualität:</strong> Höchste Standards in allen Bauphasen.",
+            "<strong>Kompetenz:</strong> Ein erfahrenes Team aus Experten und Facharbeitern.",
+            "<strong>Ganzheitlich:</strong> Von der Vorbereitung bis zur Endreinigung alles aus einer Hand."
+        ],
+        "projectsTitle": "Aktuelle Großprojekte",
+        "projectsSubtitle": "Überzeugen Sie sich von unserer Leistungsfähigkeit.",
+        "projectsBtn": "Alle Projekte ansehen",
+        "shortProjects": [
+            {
+                "id": 1,
+                "title": "Gewerbekomplex 1",
+                "desc": "Komplettausbau und Projektsteuerung."
+            },
+            {
+                "id": 2,
+                "title": "Industrieanlage 2",
+                "desc": "Spezialtiefbau und Hochbau."
+            }
+        ],
+        "regionsTitle": "Unser Einsatzgebiet",
+        "regionsSubtitle": "Wir realisieren Projekte in ganz Deutschland, mit besonderem Fokus auf die wirtschaftsstarken Metropolregionen.",
+        "regionsBtn": "Alle Standorte ansehen",
+        "ctaTitle": "Bereit für Ihr nächstes Projekt?",
+        "ctaSubtitle": "Lassen Sie uns gemeinsam über die Realisierung Ihrer Vision sprechen.",
+        "ctaBtn": "Kontaktformular öffnen"
+    },
+    "regionsPage": {
+        "heroTitle": "Unsere Einsatzgebiete nach Bundesland",
+        "heroSubtitle": "Octabau ist deutschlandweit für Sie im Einsatz. Wählen Sie ein Bundesland, um mehr über unsere regionalen Standorte und spezifischen Bauprojekte zu erfahren.",
+        "selectState": "Bundesland auswählen",
+        "directCity": "Direkt zur Stadt",
+        "nationalProject": "Überregionales Großprojekt?",
+        "nationalDesc": "Für komplexe Bauvorhaben ab einem bestimmten Volumen übernehmen wir die ganzheitliche Projektsteuerung über Bundeslandgrenzen hinweg.",
+        "nationalBtn": "Zentrale Projektberatung anfragen"
+    },
+    "citySearchBox": {
+        "placeholder": "Stadt suchen (z.B. Düsseldorf)...",
+        "searchButton": "Suchen",
+        "notSelected": "(Wählen Sie erst ein Suchergebnis)",
+        "notFound": "Stadt nicht gefunden"
+    },
+    "seoPages": {
+        "stateHeroTitle": "Unsere Standorte in",
+        "backToOverview": "Zurück zur Übersicht",
+        "contactPrompt": "Kontaktieren Sie uns für Projekte in",
+        "contactButton": "Kontakt aufnehmen",
+        "cityHeroTitle": "Bauunternehmen in",
+        "cityHeroSubtitle": "Ihr professioneller Partner für Großbauprojekte in der Region",
+        "cityDescription1": "ist ein essenzieller Wirtschaftsstandort. Octabau bietet hier maßgeschneiderte Baudienstleistungen für Industrie, Gewerbe und öffentliche Träger.",
+        "regionalServices": "Regionale Bauleistungen in",
+        "serviceDetails": "Leistungsdetails ansehen",
+        "categorySubtitle": "Spezialisierte Leistungen für",
+        "categoryDesc1": "Erfahren Sie mehr über unsere hochqualitativen Dienstleistungen im Bereich",
+        "availableServices": "Verfügbare Leistungen für",
+        "serviceSubtitle": "Professionelle Ausführung für Ihr",
+        "serviceProjIn": "Projekt in",
+        "serviceDesc1": "Octabau bietet exzellente",
+        "serviceDesc2": "Profitieren Sie von unserer langjährigen Erfahrung in der Region",
+        "in": "in"
+    },
+    "cityPage": {
+        "heroTitle": "Ihr Baupartner für Großprojekte in",
+        "heroDesc1": "Octabau realisiert in",
+        "heroDesc2": "und ganz",
+        "heroDesc3": "komplexe Bauvorhaben für gewerbliche, industrielle und öffentliche Auftraggeber.",
+        "buildIn": "Bauen in",
+        "withOctabau": "mit Octabau",
+        "p1_1": "Die Realisierung von Bauprojekten in",
+        "p1_2": "erfordert ein fundiertes Verständnis der lokalen Infrastruktur, der behördlichen Auflagen und spezifischer logistischer Herausforderungen.",
+        "p2": "Unsere regional verankerten Teams und unser starkes Netzwerk an Fachplanern und Handwerkern gewährleisten einen effizienten Bauprozess, unabhängig von der Größe des Vorhabens.",
+        "localExpertise": "Lokale Expertise",
+        "localExpertiseDesc": "Kenntnis der regionalen Bauvorschriften in",
+        "strongNetwork": "Starkes Netzwerk",
+        "strongNetworkDesc": "Kooperation mit bewährten Nachunternehmern aus dem Raum",
+        "ourServicesIn": "Unsere Leistungen in",
+        "discussInfo": "Besprechen Sie Ihr Projekt in",
+        "discussInfo2": "mit unseren Experten:",
+        "requestConsultation": "Bauberatung anfordern"
+    },
+    "categoryPage": {
+        "heroDesc1": "Professionelle Umsetzung von",
+        "heroDesc2": "-Projekten durch Octabau – Ihr Baupartner vor Ort in",
+        "regExpertise": "Regionale Expertise in",
+        "trustDesc": "Vertrauen Sie auf unsere langjährige Erfahrung und unser tiefgreifendes regionales Netzwerk in",
+        "trustDesc2": ". Wir garantieren höchste Qualitätsstandards, verbindliche Termine und Kostensicherheit für Ihr",
+        "trustDesc3": "-Vorhaben.",
+        "whyTitle": "Warum Octabau in",
+        "why1": "Regionale Projektleitung vor Ort",
+        "why2": "Kurze Reaktionszeiten dank exzellenter Logistik in der Region",
+        "why3": "Zusammenarbeit mit lokalen, erprobten Fachpartnern",
+        "specServices": "Spezialisierte Leistungen",
+        "chooseDetail": "Wählen Sie den gewünschten Fachbereich für detaillierte Informationen zu unseren Services in",
+        "detailsFor": "Details für",
+        "planProj": "Planen Sie",
+        "in": "in",
+        "talkWithUs": "Lassen Sie uns gemeinsam über Ihr Projekt sprechen. Kontaktieren Sie unser lokales Beratungsteam für ein ausführliches Gespräch.",
+        "requestNow": "Jetzt anfragen in"
+    },
+    "servicePage": {
+        "heroDesc": "Octabau ist Ihr spezialisierter Dienstleister für professionelle",
+        "heroDesc2": "-Projekte in und um",
+        "profExecution": "Fachgerechte Ausführung in",
+        "projBegin": "Ein erfolgreiches Bauprojekt beginnt mit der Wahl des richtigen Partners. Unser Team für die Region",
+        "projBegin2": "ist hervorragend geschult und arbeitet ausschließlich mit modernsten Werkzeugen und bewährten Materialien. Als überregionales Unternehmen mit lokalen Wurzeln bringen wir das nötige Know-how und die Manpower für",
+        "projBegin3": "direkt zu Ihrer Baustelle in",
+        "onTime": "Termintreue Ausführung",
+        "safety": "Höchste Sicherheitsstandards",
+        "contacts": "Feste Ansprechpartner vor Ort",
+        "transparency": "Transparente Kalkulation",
+        "projInq": "Projektanfrage",
+        "needSupport": "Benötigen Sie kurz- oder langfristige Unterstützung bei",
+        "hotline": "Regionale Hotline",
+        "emailDisp": "E-Mail Disposition",
+        "toContact": "Zum Kontaktformular",
+        "in": "in"
+    },
+    "services": {
+        "ausbau-gestaltung": {
+            "title": "Ausbau & Gestaltung",
+            "description": "Hochwertiger Komplettausbau und Gestaltung von Gewerbe- und Industriepassagen."
+        },
+        "projektvorbereitung-planung": {
+            "title": "Projektvorbereitung & Planung",
+            "description": "Wir legen den Grundstein für einen reibungslosen Ablauf Ihres Bauvorhabens."
+        },
+        "logistik-transport-service": {
+            "title": "Logistik, Transport & Service",
+            "description": "Punktgenaue Baulogistik und Transportlösungen für Großbaustellen."
+        },
+        "uebergabe-reinigung-betreuung": {
+            "title": "Übergabe, Reinigung & Betreuung",
+            "description": "Professionelle Vorbereitung zur schlüsselfertigen Übergabe Ihres Objekts."
+        },
+        "rueckbau-vorbereitung": {
+            "title": "Rückbau & Vorbereitung",
+            "description": "Fachgerechter Rückbau und Vorbereitung für Neubau oder Kernsanierung."
+        },
+        "innenausbau": {
+            "title": "Innenausbau",
+            "description": "Kompletter Innenausbau für Büros, Praxen und Gewerbeflächen."
+        },
+        "trockenbau": {
+            "title": "Trockenbau",
+            "description": "Flexible und brandschutzgerechte Trockenbaulösungen."
+        },
+        "malerarbeiten": {
+            "title": "Malerarbeiten",
+            "description": "Professionelle Anstriche und Wandbeschichtungen."
+        },
+        "bodenarbeiten": {
+            "title": "Bodenarbeiten",
+            "description": "Verlegung von Industrieböden und hochwertigen Belägen."
+        },
+        "fliesenarbeiten": {
+            "title": "Fliesenarbeiten",
+            "description": "Großflächige Fliesenverlegung für Sanitär- und Nutzbereiche."
+        },
+        "fassadenarbeiten": {
+            "title": "Fassadenarbeiten",
+            "description": "Energetische Fassadensanierung und Neugestaltung."
+        },
+        "projektberatung": {
+            "title": "Projektberatung",
+            "description": "Strategische Beratung vor Baubeginn zur Optimierung von Zeit und Budget."
+        },
+        "baukoordination": {
+            "title": "Baukoordination",
+            "description": "Schnittstellenmanagement zwischen allen beteiligten Gewerken."
+        },
+        "baustellenorganisation": {
+            "title": "Baustellenorganisation",
+            "description": "Effiziente Einrichtung und Organisation der Baustelle."
+        },
+        "baulogistik": {
+            "title": "Baulogistik",
+            "description": "Steuerung der Material- und Personenströme auf der Baustelle."
+        },
+        "materialtransport": {
+            "title": "Materialtransport",
+            "description": "Sichere Anlieferung und Verbringung von Baumaterialien."
+        },
+        "umzugsservice": {
+            "title": "Umzugsservice für Baustellen oder Gebäude",
+            "description": "Kommerzielle Umzüge und Standortverlagerungen während der Bauphase."
+        },
+        "bauendreinigung": {
+            "title": "Bauendreinigung",
+            "description": "Tiefenreine Beseitigung aller Bauverschmutzungen vor dem Einzug."
+        },
+        "objektvorbereitung": {
+            "title": "Objektvorbereitung zur Übergabe",
+            "description": "Mängelbeseitigung und letzte Feinabnahme für den Bauherren."
+        },
+        "abriss": {
+            "title": "Abriss",
+            "description": "Kontrollierter und maschineller Abbruch von Gebäudestrukturen."
+        },
+        "entkernung": {
+            "title": "Entkernung",
+            "description": "Schonende Entkernung zur Vorbereitung von Revitalisierungen."
+        },
+        "rueckbauarbeiten": {
+            "title": "Rückbauarbeiten",
+            "description": "Selektiver Rückbau und fachgerechte Schadstoffentsorgung nach TRGS."
+        }
+    }
+}
