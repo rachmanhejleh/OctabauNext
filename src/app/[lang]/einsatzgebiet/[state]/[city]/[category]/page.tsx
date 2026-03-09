@@ -69,12 +69,12 @@ export default async function CityCategoryPage({ params }: Props) {
                     />
                 </div>
                 <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-                    <div style={{ display: 'flex', gap: '0.5rem', color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{cityData.region}</Link>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', rowGap: '0.5rem', color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em', lineHeight: '1.5' }}>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{cityData.region}</Link>
                         <span>&gt;</span>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{cityData.name}</Link>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}/${cityData.slug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{cityData.name}</Link>
                         <span>&gt;</span>
-                        <span style={{ color: 'white' }}>{categoryData.title}</span>
+                        <span style={{ color: 'white', whiteSpace: 'nowrap' }}>{categoryData.title}</span>
                     </div>
 
                     <h1 style={{ fontSize: '3rem', marginBottom: '1.5rem', maxWidth: '800px', lineHeight: 1.1 }}>

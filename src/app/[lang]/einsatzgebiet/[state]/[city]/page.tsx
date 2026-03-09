@@ -56,10 +56,10 @@ export default async function CityPage({ params }: Props) {
                     />
                 </div>
                 <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-                    <div style={{ display: 'flex', gap: '0.5rem', color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.85rem', fontWeight: 600, marginBottom: '1rem' }}>
-                        <Link href={`/${lang}/einsatzgebiet`} style={{ textDecoration: 'none', color: 'inherit' }}>{dict.seoPages.locations}</Link>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', rowGap: '0.5rem', color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.85rem', fontWeight: 600, marginBottom: '1rem', lineHeight: '1.5' }}>
+                        <Link href={`/${lang}/einsatzgebiet`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{dict.seoPages.locations}</Link>
                         <span>&gt;</span>
-                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{cityData.region}</Link>
+                        <Link href={`/${lang}/einsatzgebiet/${cityData.regionSlug}`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{cityData.region}</Link>
                     </div>
                     <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem' }}>
                         {dict.cityPage.heroTitle} {cityData.name}

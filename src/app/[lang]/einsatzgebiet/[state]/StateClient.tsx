@@ -35,10 +35,10 @@ export default function StateClient({ stateSlug, lang, dict }: { stateSlug: stri
         <div>
             <section className="section-padding" style={{ backgroundColor: 'var(--secondary)', paddingTop: '8rem', paddingBottom: '4rem' }}>
                 <div className="container text-center">
-                    <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center', color: 'var(--muted)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        <Link href={`/${lang}/einsatzgebiet`} style={{ textDecoration: 'none', color: 'inherit' }}>{dict.seoPages.locations}</Link>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', rowGap: '0.5rem', justifyContent: 'center', color: 'var(--muted)', fontSize: '0.9rem', marginBottom: '2rem', textTransform: 'uppercase', letterSpacing: '0.05em', lineHeight: '1.5' }}>
+                        <Link href={`/${lang}/einsatzgebiet`} style={{ textDecoration: 'none', color: 'inherit', whiteSpace: 'nowrap' }}>{dict.seoPages.locations}</Link>
                         <span>&gt;</span>
-                        <span style={{ color: 'var(--primary)' }}>{stateName}</span>
+                        <span style={{ color: 'var(--primary)', whiteSpace: 'nowrap' }}>{stateName}</span>
                     </div>
 
                     <h1>{dict.seoPages.cityHeroTitle} {stateName}</h1>
