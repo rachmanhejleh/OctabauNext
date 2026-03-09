@@ -29,7 +29,19 @@ export default function MobileNav({ lang, dict }: MobileNavProps) {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     const drawerContent = (
-        <div className={styles.drawer}>
+        <div
+            className={styles.drawer}
+            style={{
+                backgroundColor: '#ffffff',
+                zIndex: 999999,
+                position: 'fixed',
+                top: 0,
+                right: 0,
+                height: '100vh',
+                width: '100%',
+                maxWidth: '400px'
+            }}
+        >
             <button className={styles.closeBtn} onClick={toggleMenu} aria-label="Close Menu">
                 &times;
             </button>
